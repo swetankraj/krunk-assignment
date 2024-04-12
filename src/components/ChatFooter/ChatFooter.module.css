@@ -1,0 +1,73 @@
+.chatFooter {
+  /* height: px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border-radius: 0px 0px 14px 14px; */
+  padding: 5px 10px;
+  height: 80px;
+  /* margin-top: 15px; */
+  /* padding: 0px; */
+}
+
+.actionItems {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 265px;
+  height: 40px;
+  border: 1px solid #e3ecff;
+  border-radius: 10px;
+  padding: 0px 10px 0px 20px;
+}
+
+.inputBox p {
+  color: #949494;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.inputBox img {
+  height: 20px;
+  width: 20px;
+}
+
+.sendButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 8px 40px 8px 40px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.companyInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.companyInfo p {
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.companyInfo span {
+  color: #7a7f8c;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.companyInfo img {
+  margin-left: 5px;
+}

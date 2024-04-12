@@ -1,0 +1,38 @@
+.tagsCollection {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.tags {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-primary);
+  border: 1px solid #4c82ef;
+  background-color: #f2f7ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tagsTitle {
+  font-size: 13px;
+  font-weight: 400;
+  color: #949494;
+  line-height: 19.5px;
+  margin-bottom: 10px;
+}
+
+.popularTags {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chevronRight {
+  position: absolute;
+  background-color: white;
+  height: 32px;
+  width: 24px;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}

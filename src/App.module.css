@@ -1,0 +1,7 @@
+.screen {
+  width: 360px;
+  height: 805px;
+  border: 7px solid white;
+  border-radius: 20px;
+  color: black;
+}

@@ -1,0 +1,29 @@
+.chat {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.receive {
+  background: linear-gradient(100.24deg, #e6eeff 13.91%, #ffffff 116.73%);
+  width: 250px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+}
+
+.sent {
+  background: #dcf7c5;
+  width: 213px;
+  border-radius: 15px;
+  padding: 10px 15px 10px 15px;
+  margin-left: auto;
+}
+
+.time {
+  font-size: 10px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.timeSent {
+  text-align: right;
+}

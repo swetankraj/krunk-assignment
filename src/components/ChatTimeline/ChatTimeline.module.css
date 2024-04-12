@@ -1,0 +1,45 @@
+.chat {
+  background: radial-gradient(
+      152.95% 83.67% at 54.44% 42.5%,
+      #ffffff 50.47%,
+      rgba(227, 225, 225, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  /* height: 630px; */
+  border-bottom: 3px solid white;
+  padding: 50px 10px 10px 10px;
+}
+
+.bagsOnTimpu {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 11px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bagsOnTimpu .flex {
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.flex span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #949494;
+  margin-right: 14px;
+}
